@@ -45,11 +45,13 @@ const Search = styled.div`
 `;
 const SearchInput = styled.input `
   outline-width: 0;
-  border: none; 
+  border: none;
   flex: 1; 
 `;
 
-const Container = styled.div ``;
+const Container = styled.div `
+
+`;
 const SidebarButton = styled(Button)`
   width:100%;
   &&&{
@@ -60,12 +62,12 @@ const SidebarButton = styled(Button)`
 const Header = styled.div `
   display: flex;
   position: sticky;
-  top: 0;
+  top: 0; 
   background: white;
   z-index: 1; 
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 15px; 
   height:88px;
   border-bottom: 1px solid whitesmoke;
 `;
