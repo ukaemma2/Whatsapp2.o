@@ -17,7 +17,7 @@ function Chats({chat, messages}) {
       <Sidebar />
 
       <ChatContainer>
-        <ChatScreen />
+        <ChatScreen /> 
       </ChatContainer>
     </Container>
   )
@@ -61,8 +61,6 @@ export async function getServerSideProps(context) {
         id: chatRes,
         ...chatRes.data()
       };
-
-      console.log( messages, chat)
 
       return {
         props: {
