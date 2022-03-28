@@ -18,8 +18,7 @@ if(person) {
     lastseen: firebase.firestore.FieldValue.serverTimestamp(),
     photoURL: person.photoURL
 
-},{merge: true})
-} 
+},{merge: true})} 
 }, [person])
 
 if(loading) return <Loading />
